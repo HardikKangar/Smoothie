@@ -1,0 +1,57 @@
+/* Add CSS styles to make the page visually attractive */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffcc00;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background: linear-gradient(to bottom right, #ff1493, #ff69b4);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #ff007f;
+}
+
+/* Add a contrasting text color against the background */
+button,
+label,
+input[type="text"],
+select {
+    color: #333;
+}
+
+/* Add box-shadow to the container */
+.container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
